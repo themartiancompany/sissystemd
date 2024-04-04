@@ -8,7 +8,7 @@ _bin="$( \
 	  "env")")"
 _lib="${_bin}/../lib"
 source \
-  "${_lib}/libcrash-bash/crash-bash.sh"
+  "${_lib}/libcrash-bash/crash-bash"
 
 # shellcheck disable=SC2034
 _global_variables() {
