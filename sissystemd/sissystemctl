@@ -18,6 +18,12 @@ _global_variables() {
   quiet=""
 }
 
+# Check all required programs
+# are available
+_requirements() {
+  true
+}
+
 _sissystemctl() {
   local \
     _command="${1}" \
