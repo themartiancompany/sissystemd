@@ -21,7 +21,7 @@ install-doc:
 
 	install -vDm 644 $(DOC_FILES) -t $(DOC_DIR)
 
-install-media:
+install-sissystemd:
 
 	install -vdm 755 "$(BIN_DIR)"
 	install -vDm 755 sissystemd/sissystemctl "$(BIN_DIR)"
