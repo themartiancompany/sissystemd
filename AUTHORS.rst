@@ -1,39 +1,45 @@
-===============
-Arch-grub Authors
-===============
+..
+   SPDX-License-Identifier: AGPL-3.0-or-later
 
-* Aaron Griffin <aaron@archlinux.org>
-* Adam Purkrt <adam@purkrt.net>
-* Alexander Epaneshnikov <aarnaarn2@gmail.com>
-* Chandan Singh <cks071g2@gmail.com>
-* Charles Vejnar <ce@vejnar.org>
-* Christian Hesse <mail@eworm.de>
-* Christopher Brannon <cmbrannon79@gmail.com>
-* Dan McGee <dan@archlinux.org>
-* David Runge <dvzrv@archlinux.org>
-* David Thurstenson <thurstylark@gmail.com>
-* Dieter Plaetinck <dieter@plaetinck.be>
-* Eli Schwartz <eschwartz@archlinux.org>
-* Florian Pritz <bluewind@xinu.at>
-* Francois Dupoux <fdupoux@users.sourceforge.net>
-* Gerardo Exequiel Pozzi <vmlinuz386@gmail.com>
-* Gerhard Brauer <gerbra@archlinux.de>
-* James Sitegen <jamesm.sitegen@gmail.com>
-* Justin Kromlinger <hashworks@archlinux.org>
-* Keshav Amburay <the.ridikulus.rat@gmail.com>
-* Loui Chang <louipc.ist@gmail.com>
-* Lukas Fleischer <archlinux@cryptocrack.de>
-* Martin Damian Fernandez <martin.damian.fernandez@gmail.com>
-* Michael Vorburger <mike@vorburger.ch>
-* Pierre Schmitz <pierre@archlinux.de>
-* Sean Enck <enckse@voidedtech.com>
-* Simo Leone <simo@archlinux.org>
-* Steffen Bönigk <boenki@gmx.de>
-* Sven-Hendrik Haase <svenstaro@gmail.com>
-* Thomas Bächler <thomas@archlinux.org>
-* Yu Li-Yu <afg984@gmail.com>
-* nl6720 <nl6720@gmail.com>
-* Øyvind Heggstad <heggstad@gmail.com>
-* plain linen <bcdedit@hotmail.com>
-* Pellegrino Prevete <pellegrinoprevete@gmail.com>
-* Truocolo <truocolo@aol.com>
+   -------------------------------------------------------
+   Copyright © 2024, 2025, 2026
+               Pellegrino Prevete
+
+   All rights reserved
+   -------------------------------------------------------
+
+   This program is free software: you can redistribute it
+   and/or modify it under the terms of the
+   GNU Affero General Public License as published by
+   the Free Software Foundation, either version 3 of the
+   License, or (at your option) any later version.
+
+   This program is distributed in the hope that it will
+   be useful, but WITHOUT ANY WARRANTY; without even the
+   implied warranty of MERCHANTABILITY or FITNESS FOR A
+   PARTICULAR PURPOSE.
+   See the GNU Affero General Public License
+   for more details.
+
+   You should have received a copy of the
+   GNU Affero General Public License
+   along with this program.
+   If not, see <https://www.gnu.org/licenses/>.
+
+
+=====================================
+SissystemD Authors
+=====================================
+
+
+* Pellegrino Prevete
+  * eth-mail
+      <dvorak@0x87003Bd6C074C713783df04f36517451fF34CBEf>
+  * e-mail
+      <pellegrinoprevete@gmail.com>
+* Truocolo
+  * eth-mail
+      <truocolo@0x6E5163fC4BFc1511Dbe06bB605cc14a3e462332b>
+  * e-mail
+      <truocolo@aol.com>
+
