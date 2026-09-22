@@ -1,0 +1,9 @@
+[submodule "touchctl"]
+	path = touchctl
+	url = https://github.com/themartiancompany/touchctl
+[submodule "displayctl"]
+	path = displayctl
+	url = https://github.com/themartiancompany/displayctl
+[submodule "powerctl"]
+	path = powerctl
+	url = https://github.com/themartiancompany/powerctl
