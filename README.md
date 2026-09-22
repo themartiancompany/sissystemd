@@ -28,9 +28,16 @@ Cross-platform SystemD extension.
 It includes the following components not included
 in SystemD.
 
-- `powerctl`: manages power saving options;
-- `displayctl`: manages displays options;
-- `touchctl`: manages touch devices.
+- [`powerctl`](
+    https://github.com/themartiancompany/powerctl):
+  manages power saving options;
+
+- [`displayctl`](
+    https://github.com/themartiancompany/displayctl):
+  manages displays options;
+- [`touchctl`](
+    https://github.com/themartiancompany/touchctl):
+  manages touch devices.
 
 ## Installation
 
