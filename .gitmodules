@@ -7,3 +7,6 @@
 [submodule "powerctl"]
 	path = powerctl
 	url = https://github.com/themartiancompany/powerctl
+[submodule "bbrightnessctl"]
+	path = bbrightnessctl
+	url = https://github.com/themartiancompany/bbrightnessctl
