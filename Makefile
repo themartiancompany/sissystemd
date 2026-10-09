@@ -29,8 +29,28 @@ PREFIX ?= /usr/local
 DOC_DIR=$(DESTDIR)$(PREFIX)/share/doc/$(_PROJECT)
 BIN_DIR=$(DESTDIR)$(PREFIX)/bin
 
-DOC_FILES=$(wildcard *.rst)
-SCRIPT_FILES=$(wildcard sissystemd/*)
+_INSTALL_FILE=\
+  install \
+    -vDm644
+_INSTALL_DIR=\
+  install \
+    -vdm755
+_INSTALL_EXE=\
+  install \
+    -vDm755
+_MAKE_EXE=\
+  chmod \
+    755
+_MAKE_LINK=\
+  ln \
+    -sv
+
+DOC_FILES=\
+  $(wildcard \
+      *.rst)
+SCRIPT_FILES=\
+  $(wildcard \
+      $(_PROJECT)/*)
 
 all:
 
@@ -43,7 +63,7 @@ shellcheck:
 	    "bash" \
 	  $(SCRIPT_FILES)
 
-install: install-sissystemd install-doc
+install: install-$(_PROJECT) install-doc
 
 install-doc:
 
@@ -55,11 +75,12 @@ install-doc:
 
 install-sissystemd:
 
-	install \
-	  -vdm755 \
+	$(_INSTALL_DIR) \
 	  "$(BIN_DIR)"
-	install \
-	  -vDm755 \
+	$(_INSTALL_EXE) \
+	  "$(_PROJECT)/$(_PROJECT)" \
+	  "$(BIN_DIR)"
+	$(_INSTALL_EXE) \
 	  "$(_PROJECT)/sissystemctl" \
 	  "$(BIN_DIR)"
 
