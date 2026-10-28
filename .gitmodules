@@ -10,3 +10,6 @@
 [submodule "bbrightnessctl"]
 	path = bbrightnessctl
 	url = https://github.com/themartiancompany/bbrightnessctl
+[submodule "hotnamectl"]
+	path = hotnamectl
+	url = https://github.com/themartiancompany/hotnamectl
