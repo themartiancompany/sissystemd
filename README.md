@@ -36,6 +36,10 @@ in SystemD.
     https://github.com/themartiancompany/displayctl):
   manages displays options;
 
+- [`hotnamectl`](
+    https://github.com/themartiancompany/hotnamctl):
+  cross-platform extension of `hostnamectl`;
+
 - [`powerctl`](
     https://github.com/themartiancompany/powerctl):
   manages power saving options;
