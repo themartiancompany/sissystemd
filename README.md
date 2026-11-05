@@ -44,9 +44,14 @@ in SystemD.
     https://github.com/themartiancompany/powerctl):
   manages power saving options;
 
+- [`senzacoreutils`](
+    https://github.com/themartiancompany/senzacoreutils):
+  Javascript GNU Coreutils implementation;
+
 - [`touchctl`](
     https://github.com/themartiancompany/touchctl):
   manages touch devices.
+
 
 ## Installation
 
